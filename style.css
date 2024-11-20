@@ -225,7 +225,7 @@ body {
     color: var(--color-text);
 }
 
-// Add this new style
+
 .post-content a {
     color: var(--color-accent);
     text-decoration: none;
