@@ -219,3 +219,20 @@ body {
         margin: 1rem auto;
     }
 }
+
+
+.post-content {
+    color: var(--color-text);
+}
+
+// Add this new style
+.post-content a {
+    color: var(--color-accent);
+    text-decoration: none;
+    transition: color var(--transition-speed) ease;
+}
+
+.post-content a:hover {
+    color: var(--color-accent-light);
+}
+
