@@ -232,7 +232,8 @@ body {
     transition: color var(--transition-speed) ease;
 }
 
-.post-content a:hover {
+.post-content a:hover,
+.post-content a:visited {
     color: var(--color-accent-light);
 }
 
